@@ -22,7 +22,7 @@ straight-forward as it is obvious: [HelloController](https://github.com/bzdgn/do
 The key thing using a standalone Spring Boot application is to create a **Fat Jar**, also known as
 **Uber Jar**. In order to create the **Uber Jar**, there are two things to be done;
 
-- 1. Add an **start-class** to point to the class acting as the Entry Point as below;
+1. Add an **start-class** to point to the class acting as the Entry Point as below;
 
 ```
     <properties>
