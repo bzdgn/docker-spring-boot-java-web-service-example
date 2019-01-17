@@ -118,6 +118,29 @@ With the **Dockerfile** we can define, configure and initialize our image and co
 
 Notify that the CMD(command) parameters are separated with comma.
 
+Then our **Dockerfile** will be as below;
+
+```
+	# Use an official OpenJDK runtime as a parent image
+	FROM openjdk:8-jre-alpine
+	
+	# set shell to bash
+	# source: https://stackoverflow.com/a/40944512/3128926
+	RUN apk update && apk add bash
+	
+	# Set the working directory to /app
+	WORKDIR /app
+	
+	# Copy the fat jar into the container at /app
+	COPY /target/docker-java-app-example.jar /app
+	
+	# Make port 8080 available to the world outside this container
+	EXPOSE 8080
+	
+	# Run jar file when the container launches
+	CMD ["java", "-jar", "docker-java-app-example.jar"]
+```
+
 Now our [Dockerfile](https://github.com/bzdgn/docker-spring-boot-java-web-service-example/blob/master/Dockerfile) is all set, we can directly build the image.
 
 [Go back to TOC](#toc)
