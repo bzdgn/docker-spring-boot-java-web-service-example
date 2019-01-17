@@ -327,25 +327,25 @@ C:\00_ANA\JavaEE\WS\docker-java-app-example>
 3. Docker run
 
 ```
-docker run -p 80:8080 docker-java-hello-world-app
+	docker run -p 80:8080 docker-java-hello-world-app
 ```
 
 4. Test the app
 
 ```
-http://localhost/docker-java-app/test
+	http://localhost/docker-java-app/test
 ```
 
 5. Get the container id
 
 ```
-docker container ls
+	docker container ls
 ```
 
 6. Get into the app
 
 ```
-docker exec -it <container_id> /bin/bash
+	docker exec -it <container_id> /bin/bash
 ```
 
 7. To stop the container
