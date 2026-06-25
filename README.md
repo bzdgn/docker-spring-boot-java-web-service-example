@@ -1,4 +1,3 @@
-```html
 <div align="center">
 
 <h3 align="center"><b><u>Deploy this project Instantly</u></b></h3>
@@ -12,7 +11,6 @@
 </a>
 
 </div>
-```
 
 # Docker Spring Boot Java Web Service Example
 
