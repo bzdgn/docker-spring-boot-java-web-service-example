@@ -86,6 +86,13 @@ To deploy this project, create a new application on Nife.io, connect this GitHub
 | Build Method | Dockerfile |
 
 For step-by-step deployment guidance, see the **[Nife.io Quick Deploy documentation](https://docs.nife.io/overview/quick-deploy)**.
+## 🚀 Deploy on NIFE OneClick
+
+Launch your own instance of **docker-spring-boot-java-web-service-example** with a single click.
+
+### Deploy as Application
+
+[![Deploy App on OneClick](https://img.shields.io/badge/🚀%20Deploy%20App%20on%20OneClick-6C2CF5?style=for-the-badge)](https://launch.nife.io/deploy-app/start?repository-url=https://github.com/nifetency/docker-spring-boot-java-web-service-example)
 
 ## Project Structure
 
