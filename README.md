@@ -1,3 +1,19 @@
+```html
+<div align="center">
+
+<h3 align="center"><b><u>Deploy this project Instantly</u></b></h3>
+
+<a href="https://launch.nife.io/deploy-app/start?repository-url=https://github.com/nifetency/docker-spring-boot-java-web-service-example.git">
+  <img
+    src="https://launch.nife.io/deploy-on-nife.svg"
+    alt="Deploy on NIFE"
+    width="280"
+  />
+</a>
+
+</div>
+```
+
 # Docker Spring Boot Java Web Service Example
 
 This repository contains a simple **Spring Boot** web service packaged with **Docker** and maintained as a deployment sample for **[Nife.io](https://nife.io)**.
@@ -86,13 +102,6 @@ To deploy this project, create a new application on Nife.io, connect this GitHub
 | Build Method | Dockerfile |
 
 For step-by-step deployment guidance, see the **[Nife.io Quick Deploy documentation](https://docs.nife.io/overview/quick-deploy)**.
-## 🚀 Deploy on NIFE OneClick
-
-Launch your own instance of **docker-spring-boot-java-web-service-example** with a single click.
-
-### Deploy as Application
-
-[![Deploy App on OneClick](https://img.shields.io/badge/🚀%20Deploy%20App%20on%20OneClick-6C2CF5?style=for-the-badge)](https://launch.nife.io/deploy-app/start?repository-url=https://github.com/nifetency/docker-spring-boot-java-web-service-example)
 
 ## Project Structure
 
