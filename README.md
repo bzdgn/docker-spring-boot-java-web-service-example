@@ -2,7 +2,7 @@
 
 <h3 align="center"><b><u>Deploy this project Instantly</u></b></h3>
 
-<a href="https://launch.nife.io/deploy-app/start?repository-url=https://github.com/nifetency/docker-spring-boot-java-web-service-example.git">
+<a href="https://launch.nife.io/deploy-app/start?repository-url=https://github.com/nife-public/docker-spring-boot-java-web-service-example.git">
   <img
     src="https://launch.nife.io/deploy-on-nife.svg"
     alt="Deploy on NIFE"
@@ -38,7 +38,7 @@ Before getting started, make sure the following tools are installed on your mach
 Clone the repository and move into the project directory.
 
 ```bash
-git clone https://github.com/nifetency/docker-spring-boot-java-web-service-example.git
+git clone https://github.com/nife-public/docker-spring-boot-java-web-service-example.git
 cd docker-spring-boot-java-web-service-example
 ```
 
